@@ -1,7 +1,7 @@
 # DomEase
 
-DomEase makes it easy to switch between light and dark modes, automatically adapting to system preferences and remembering the user's choice. 
-It includes a theme selection dropdown and supports Bootstrap Icons for a better visual experience.
+DomEase is a lightweight and powerful JavaScript library designed for easy DOM manipulation, event handling, storage management, random color generation, and much more. 
+It provides a rich set of utility functions to streamline web development, making common tasks more efficient and intuitive.
 
 ## Website
 
