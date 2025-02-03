@@ -1,4 +1,4 @@
-import { $, $$, $$$ } from './modules/selector.js';
+import { $, $$, id, tag } from './modules/selector.js';
 import { addClass, removeClass, toggleClass, hasClass } from './modules/classes.js';
 import { addEvent, addEvents } from './modules/event.js';
 import { addID, removeID, toggleID, hasID, uuidv4 } from './modules/id.js';
@@ -20,7 +20,6 @@ import { smoothScrollTo } from './modules/scroll.js';
 export {
     $,
     $$,
-    $$$,
     addClass,
     addEvent,
     addEvents,
@@ -52,6 +51,7 @@ export {
     hexToRgb,
     hexToRgba,
     hide,
+    id,
     inArray,
     mergeDeepObject,
     omitKeysObject,
@@ -81,6 +81,7 @@ export {
     show,
     shuffleArray,
     smoothScrollTo,
+    tag,
     toggleClass,
     toggleID,
     uniqueArray,
